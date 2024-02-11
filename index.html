@@ -38,6 +38,15 @@
       background: #007dff;
       border: none;
     }
+    .menu-horizontal li a:hover::after {
+        content: '';
+        display: block;
+        width: 60%;
+        height: 3px;
+        background-color: #fdbe00;
+        position: absolute;
+        bottom: -25px;
+    }
   </style>
 </head>
 <body class="font-poppins bg-white">
@@ -68,28 +77,28 @@
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
               </div>
               <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 bg-white w-52 uppercase">
-                <li><a class="hover:text-[#fdbe00]">Home</a></li>
-                <li><a class="hover:text-[#fdbe00]">About</a></li>
-                <li><a class="hover:text-[#fdbe00]">Brands</a></li>
-                <li><a class="hover:text-[#fdbe00]">Parts</a></li>
-                <li><a class="hover:text-[#fdbe00]">Equipment</a></li>
-                <li><a class="hover:text-[#fdbe00]">Contact</a></li>
+                <li><a href="#" class="hover:bg-transparent hover:text-[#fdbe00]">Home</a></li>
+                <li><a href="#" class="hover:bg-transparent hover:text-[#fdbe00]">About</a></li>
+                <li><a href="#" class="hover:bg-transparent hover:text-[#fdbe00]">Brands</a></li>
+                <li><a href="#" class="hover:bg-transparent hover:text-[#fdbe00]">Parts</a></li>
+                <li><a href="#" class="hover:bg-transparent hover:text-[#fdbe00]">Equipment</a></li>
+                <li><a href="#" class="hover:bg-transparent hover:text-[#fdbe00]">Contact</a></li>
               </ul>
             </div>
             <img src="images/logo.png" alt="">
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1 uppercase">
-              <li><a class="hover:text-[#fdbe00] hover:">Home</a></li>
-              <li><a class="hover:text-[#fdbe00]">About</a></li>
-              <li><a class="hover:text-[#fdbe00]">Brands</a></li>
-              <li><a class="hover:text-[#fdbe00]">Parts</a></li>
-              <li><a class="hover:text-[#fdbe00]">Equipment</a></li>
-              <li><a class="hover:text-[#fdbe00]">Contact</a></li>
+              <li class="border-b-yellow-400"><a href="#" class="hover:bg-transparent hover:text-[#fdbe00]">Home</a></li>
+              <li><a href="#" class="hover:bg-transparent hover:text-[#fdbe00]">About</a></li>
+              <li><a href="#" class="hover:bg-transparent hover:text-[#fdbe00]">Brands</a></li>
+              <li><a href="#" class="hover:bg-transparent hover:text-[#fdbe00]">Parts</a></li>
+              <li><a href="#" class="hover:bg-transparent hover:text-[#fdbe00]">Equipment</a></li>
+              <li><a href="#" class="hover:bg-transparent hover:text-[#fdbe00]">Contact</a></li>
             </ul>
           </div>
           <div class="navbar-end">
-            <a class="btn bg-gradient-to-r from-[#fdbe00] to-[#007dff] rounded-full text-white border-none">
+            <a href="#" class="btn bg-gradient-to-r from-[#fdbe00] to-[#007dff] rounded-full text-white border-none">
               <img src="images/icons/calculator.png" alt="">
               Need Estimate?
             </a>
